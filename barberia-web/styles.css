@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Inter:wght@300;400&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #050505;
+  color: #e5e5e5;
+}
+
+/* HERO */
+header {
+  text-align: center;
+  padding: 120px 20px;
+  background: linear-gradient(180deg, #000000, #0a0a0a);
+}
+header {
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)),
+  url('https://images.unsplash.com/photo-1517832606299-7ae9b720a186');
+  background-size: cover;
+  background-position: center;
+}
+
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.5rem;
+  letter-spacing: 3px;
+  color: #d4af37;
+}
+
+header p {
+  color: #aaa;
+  margin: 15px 0 25px;
+  font-size: 1.1rem;
+}
+
+/* SECCIONES */
+section {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  color: #d4af37;
+  margin-bottom: 30px;
+}
+
+/* CARDS */
+.card {
+  background-color: #0f0f0f;
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 1px solid #1f1f1f;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  border-color: #d4af37;
+  transform: translateY(-5px);
+}
+
+/* BOTÓN */
+.boton {
+  display: inline-block;
+  background: transparent;
+  color: #d4af37;
+  padding: 10px 25px;
+  border: 1px solid #d4af37;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.boton:hover {
+  background-color: #d4af37;
+  color: black;
+}
+
+.logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 4rem;
+  letter-spacing: 4px;
+  color: #d4af37;
+  position: relative;
+}
+
+.logo span {
+  color: white;
+}
+
+/* Línea decorativa */
+.logo::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 2px;
+  background-color: #d4af37;
+  margin: 15px auto 0;
+}

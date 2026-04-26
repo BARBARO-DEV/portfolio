@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #0f172a, #020617);
+  color: white;
+}
+
+.container {
+  width: 350px;
+  margin: 50px auto;
+  background-color: #1e293b;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+/* TITULOS */
+h1, h2 {
+  text-align: center;
+}
+
+/* FORMULARIO */
+input, select, button {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 12px;
+  border-radius: 6px;
+  border: none;
+  font-size: 14px;
+  box-sizing: border-box; /* 🔥 clave */
+  height: 42px; /* 🔥 misma altura exacta */
+}
+
+select {
+  appearance: none;
+}
+
+input, select {
+  background-color: #0f172a;
+  color: white;
+}
+
+button {
+  background-color: #38bdf8;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #0ea5e9;
+}
+
+#mensaje {
+  text-align: center;
+  margin-top: 10px;
+  color: #4ade80;
+}
+
+#lista-turnos {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+#lista-turnos li {
+  background-color: #0f172a;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+#lista-turnos li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0f172a;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+#lista-turnos button {
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  padding: 5px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#lista-turnos button:hover {
+  background-color: #dc2626;
+}
+
+#mensaje {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
